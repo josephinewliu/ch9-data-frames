@@ -38,4 +38,4 @@ organization_smallest_grant <- grants[grants$total_amount == grant_smallest,
                                       "organization"]
 
 # How many grants were awarded in 2010?
-grants_awarded <- length(grants$total_amount)
+grants_awarded <- length(grants$start_year[grants$start_year == 2010])
