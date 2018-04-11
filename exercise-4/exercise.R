@@ -33,6 +33,7 @@ grant_smallest <- min(grants$total_amount)
 organization_largest_grant <- grants[grants$total_amount == grant_largest,
                                       "organization"]
 
+
 # Which organization received the smallest grant?
 organization_smallest_grant <- grants[grants$total_amount == grant_smallest,
                                       "organization"]
